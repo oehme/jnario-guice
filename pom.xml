@@ -10,6 +10,12 @@
 	<groupId>de.oehme.jnario</groupId>
 	<artifactId>jnario-guice</artifactId>
 
+	<scm>
+		<connection>scm:git:git://github.com/oehme/jnario-guice.git</connection>
+		<developerConnection>scm:git:git@github.com:oehme/jnario-guice.git</developerConnection>
+		<url>https://github.com/oehme/jnario-guice</url>
+	</scm>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.jnario</groupId>
