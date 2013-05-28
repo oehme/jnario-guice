@@ -6,15 +6,51 @@
 		<artifactId>oss-java-parent</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
+
 	<version>0.0.1-SNAPSHOT</version>
 	<groupId>de.oehme.jnario</groupId>
 	<artifactId>jnario-guice</artifactId>
+	<name>Jnario Guice integration</name>
 
 	<scm>
 		<connection>scm:git:git://github.com/oehme/jnario-guice.git</connection>
 		<developerConnection>scm:git:git@github.com:oehme/jnario-guice.git</developerConnection>
 		<url>https://github.com/oehme/jnario-guice</url>
 	</scm>
+
+	<developers>
+		<developer>
+			<id>oehme</id>
+			<name>Stefan Oehme</name>
+			<email>oehme@itemis.de</email>
+			<url>https://plus.google.com/102844322322705636353</url>
+			<organization>itemis AG</organization>
+			<organizationUrl>itemis.de</organizationUrl>
+		</developer>
+	</developers>
+
+	<ciManagement>
+		<url>https://oehme.ci.cloudbees.com/</url>
+		<system>jenkins</system>
+	</ciManagement>
+
+	<issueManagement>
+		<system>Github Issues</system>
+		<url>https://github.com/oehme/jnario-guice/issues</url>
+	</issueManagement>
+
+	<licenses>
+		<license>
+			<name>MIT</name>
+			<distribution>repo</distribution>
+			<url>http://opensource.org/licenses/MIT</url>
+		</license>
+	</licenses>
+
+	<organization>
+		<name>itemis AG</name>
+		<url>itemis.de</url>
+	</organization>
 
 	<dependencies>
 		<dependency>
