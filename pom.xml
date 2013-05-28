@@ -6,7 +6,7 @@
 		<version>1</version>
 	</parent>
 
-	<version>1.0.0</version>
+	<version>1.0.1-SNAPSHOT</version>
 	<groupId>de.oehme.jnario</groupId>
 	<artifactId>jnario-guice</artifactId>
 	<name>Jnario Guice integration</name>
@@ -15,7 +15,7 @@
 		<connection>scm:git:git://github.com/oehme/jnario-guice.git</connection>
 		<developerConnection>scm:git:git@github.com:oehme/jnario-guice.git</developerConnection>
 		<url>https://github.com/oehme/jnario-guice</url>
-	  <tag>jnario-guice-1.0.0</tag>
+	  <tag>HEAD</tag>
   </scm>
 
 	<developers>
