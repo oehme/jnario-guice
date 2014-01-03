@@ -6,8 +6,8 @@ import de.oehme.jnario.guice.uut.Greeter
 import javax.inject.Inject
 import org.jnario.runner.CreateWith
 
-@CreateWith(typeof(GuiceSpecCreator))
-@InjectWith(typeof(EnglishModule))
+@CreateWith(GuiceSpecCreator)
+@InjectWith(EnglishModule)
 describe Greeter "Interface Injection"{
 	@Inject
 	Greeter injected
@@ -26,7 +26,7 @@ describe Greeter "Interface Injection"{
 		}
 	}
 
-	@InjectWith(typeof(GermanModule))
+	@InjectWith(GermanModule)
 	context "within an annotated context" {
 		fact "the inner annotation takes precedence" {
 			subject.greet should be "Hallo"

@@ -3,7 +3,7 @@ package de.oehme.jnario.guice
 import de.oehme.jnario.guice.uut.FooModule
 import org.jnario.runner.CreateWith
 
-@CreateWith(typeof(GuiceSpecCreator))
+@CreateWith(GuiceSpecCreator)
 describe String "Class Injection"{
 
 	context "without a module" {
@@ -12,7 +12,7 @@ describe String "Class Injection"{
 		}
 	}
 
-	@InjectWith(typeof(FooModule))
+	@InjectWith(FooModule)
 	context "with a special module" {
 		fact "the module takes precedence" {
 			subject should be "Foo"
