@@ -8,7 +8,7 @@
 
 	<groupId>com.github.oehme.jnario</groupId>
 	<artifactId>jnario-guice</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 	<inceptionYear>2013</inceptionYear>
 	<name>Jnario Guice</name>
@@ -19,7 +19,7 @@
 		<connection>scm:git:git://github.com/oehme/jnario-guice.git</connection>
 		<developerConnection>scm:git:git@github.com:oehme/jnario-guice.git</developerConnection>
 		<url>https://github.com/oehme/jnario-guice</url>
-		<tag>jnario-guice-1.0.0</tag>
+		<tag>HEAD</tag>
 	</scm>
 
 	<developers>
