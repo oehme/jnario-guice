@@ -9,7 +9,7 @@
 
 	<groupId>com.github.oehme.jnario</groupId>
 	<artifactId>jnario-guice</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
 	<inceptionYear>2013</inceptionYear>
 	<name>Jnario Guice</name>
