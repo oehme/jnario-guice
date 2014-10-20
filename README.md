@@ -38,7 +38,5 @@ Now you can use the @Inject annotation in your spec.
 			injected.greet should be "Hello"
 		}
 	}
-	
-See the tests for more examples.
 
 ![](http://www.cloudbees.com/sites/default/files/Button-Built-on-CB-1.png)
