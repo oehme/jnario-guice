@@ -2,15 +2,9 @@ jnario-guice
 ============
 
 Guice dependency injection for Jnario Specs
+[![Build Status](https://travis-ci.org/oehme/jnario-guice.svg)](https://travis-ci.org/oehme/jnario-guice)
+[![Download](https://api.bintray.com/packages/oehme/maven/jnario-guice/images/download.svg) ](https://bintray.com/oehme/maven/jnario-guice/_latestVersion)
 
-[![Build Status](https://oehme.ci.cloudbees.com/job/jnario-guice/badge/icon)](https://oehme.ci.cloudbees.com/job/jnario-guice/)
-
-    <dependency>
-      <groupId>com.github.oehme.jnario</groupId>
-      <artifactId>jnario-guice</artifactId>
-      <version>...</version>
-    </dependency>
-    
 Features
 ========
 
@@ -38,5 +32,3 @@ Now you can use the @Inject annotation in your spec.
 			injected.greet should be "Hello"
 		}
 	}
-
-![](http://www.cloudbees.com/sites/default/files/Button-Built-on-CB-1.png)
