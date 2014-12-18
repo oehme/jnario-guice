@@ -2,6 +2,7 @@ jnario-guice
 ============
 
 Guice dependency injection for Jnario Specs
+
 [![Build Status](https://travis-ci.org/oehme/jnario-guice.svg)](https://travis-ci.org/oehme/jnario-guice)
 [![Download](https://api.bintray.com/packages/oehme/maven/jnario-guice/images/download.svg) ](https://bintray.com/oehme/maven/jnario-guice/_latestVersion)
 
